@@ -298,13 +298,13 @@ paths:
       summary: Raadplegen eigen actuele abonnementen bij andere netwerkpartijen
       operationId: getEigenAbonnementen
       parameters:
-      - in: header
-        name: X-orgKey
-        description: Uniek ID van de organisatie binnen het netwerk
-        schema:
-          type: integer
-          format: int32
-        required: true
+      #- in: header
+      #  name: X-orgKey
+      #  description: Uniek ID van de organisatie binnen het netwerk
+      #  schema:
+      #    type: integer
+      #    format: int32
+      #  required: true
       - in: query
         name: recordType
         description: record beschrijving

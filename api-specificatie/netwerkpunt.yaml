@@ -291,7 +291,7 @@ paths:
                   abonnementId:
                     type: string
                     format: uuid
-  /netwerkpunt/abonnement:
+  /netwerkpunt/intern/abonnement:
     get:
       tags:
         - netwerkpunt_intern
@@ -379,7 +379,7 @@ paths:
                   - organisatieId
                   - organisatieIdType
                   - aanmaakdatum
-  /netwerkpunt/abonnees:
+  /netwerkpunt/intern/abonnees:
     get:
       tags:
         - netwerkpunt_intern

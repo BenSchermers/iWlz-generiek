@@ -302,7 +302,7 @@ paths:
         name: X-orgKey
         description: Uniek ID van de organisatie binnen het netwerk
         schema:
-         type: integer
+          type: integer
           format: int32
         required: true
       - in: query
